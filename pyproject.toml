@@ -10,6 +10,9 @@ dependencies = [
 readme = "README.md"
 requires-python = ">= 3.10"
 
+[project.scripts]
+commito = "commito.commito:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
